@@ -1,0 +1,388 @@
+.container {
+  padding: 0 0rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  color: floralwhite;
+  /* margin-top: 1px; */
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.err {
+  font-size: 11em;
+  text-align: center;
+  margin: 146px;
+  color: #e7e3e3;
+}
+.err1 {
+  position: absolute;
+  margin-top: -263px;
+  margin-left: 400px;
+}
+.errcss {
+  position: absolute;
+  margin-left: 596px;
+  margin-top: -192px;
+  color: white;
+  height: 45px;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 194px;
+  border: solid;
+  background-color: #1c8edf;
+}
+.formcss {
+  text-align: center;
+  background: gainsboro;
+  width: min-content;
+  padding: 12px;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+.maxx {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.signup {
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: solid;
+  width: 350px;
+  padding: 40px;
+  color: rgb(12, 110, 211);
+  background-color: rgb(245, 218, 218);
+  position: absolute;
+  top: 129px;
+  left: 32em;
+}
+.logoutb {
+  background: #000000fa;
+  padding: inherit;
+  border-radius: 22px;
+  color: #ff5722;
+  /* color: #ff0000; */
+  font-weight: 700;
+}
+.checkin {
+  background: forestgreen;
+  color: white;
+  font-style: italic;
+  position: absolute;
+  top: 85px;
+  left: 95em;
+}
+.checkout {
+  background: rgb(226, 15, 25);
+  color: white;
+  font-style: italic;
+  position: absolute;
+  top: 85px;
+  left: 95em;
+}
+.time {
+  position: absolute;
+  top: 77px;
+  left: 1138px;
+}
+.para {
+  width: 32em;
+  /* text-align: center; */
+  background: bisque;
+  margin-left: 29em;
+  padding: 17px;
+  border-radius: 18px;
+}
+.Home_headerColor__DwRc2 {
+  background: black;
+}
+.err121 {
+  font-size: 43px;
+  text-align: center;
+  /* color: #bba0a0c7; */
+  color: #a18fa17d;
+}
+.messenger {
+  height: calc(100vh - 70px);
+  display: flex;
+}
+
+.chatMenu {
+  flex: 3.5;
+}
+
+.chatMenuInput {
+  width: 90%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.chatBox {
+  flex: 5.5;
+}
+
+.chatBoxWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.chatBoxTop {
+  height: 100%;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.chatBoxBottom {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatMessageInput {
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+}
+
+.chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: teal;
+  color: white;
+}
+
+.chatOnline {
+  flex: 3;
+}
+
+.chatMenuWrapper,
+.chatBoxWrapper,
+.chatOnlineWrapper {
+  padding: 10px;
+  height: 100%;
+}
+
+.noConversationText {
+  position: absolute;
+  top: 10%;
+  font-size: 50px;
+  color: rgb(224, 220, 220);
+  cursor: default;
+}
+
+@media screen and (max-width: 768px) {
+  .chatMenu {
+    flex: 1;
+  }
+
+  .chatMenuInput {
+    display: none;
+  }
+
+  .chatBox {
+    flex: 10;
+  }
+
+  .chatOnline {
+    flex: 1px;
+  }
+}
+.chat {
+  background: #c9f0f5;
+  border-radius: 0px 7px 7px 7px;
+  padding: 6px;
+  width: fit-content;
+}
+
+.chatReceiver {
+  background: #c9f0f5;
+  border-radius: 0px 7px 0px 7px;
+  padding: 6px;
+  width: fit-content;
+  margin-left: auto;
+}
+.textF {
+  background: #9a41cf;
+  width: 38px;
+  height: 39px;
+  border-radius: 59px;
+  padding: 8px;
+  margin-top: 10px;
+  color: white;
+}
+.containerr {
+  padding: 4px !important;
+  background: white !important;
+  width: fit-content !important;
+}
+.textFf {
+  /* background: #837b7b; */
+  width: 45px;
+  height: 37px;
+  border-radius: 79px;
+  padding: 0px;
+  margin-top: 10px;
+  color: #a595ad;
+}
+.textF2 {
+  background: #9a41cf;
+  width: 38px;
+  height: 39px;
+  border-radius: 59px;
+  padding: 8px;
+  margin-top: 10px;
+  color: white;
+  margin-left: 18px;
+}
+.chatName {
+  width: 569px;
+  margin-left: -38px;
+  height: 46px;
+  /* border-radius: 0px; */
+}
+.searchh {
+  position: absolute;
+  top: 99px;
+  left: 45.5em;
+  width: -12px;
+}
+.threedot {
+  position: absolute;
+  top: 99px;
+  right: 186px;
+}
+.headName {
+  position: absolute;
+  top: 77px;
+  left: 36em;
+}
+.msgdropdown {
+  left: 35.4% !important;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 5px !important;
+}
+.dropdown {
+  position: absolute;
+  top: -7px;
+  left: 232px;
+}
+.menubar {
+  position: absolute;
+  top: -22px;
+  left: 49px;
+  font-weight: 700;
+}
